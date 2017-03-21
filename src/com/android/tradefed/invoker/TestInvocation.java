@@ -129,12 +129,11 @@ public class TestInvocation implements ITestInvocation {
 					CLog.i("Invocation for %s has been sharded, rescheduling", device.getSerialNumber());
 				} else {
 					device.setRecovery(config.getDeviceRecovery());
+					device.clearLogcat();
 					// 准备刷机,启动case
 					performInvocation(config, device, info, rescheduler);
 					// exit here, depend on performInvocation to deregister
-					// logger
-					
-					
+					// logger					
 					return;
 				}
 			} else {
