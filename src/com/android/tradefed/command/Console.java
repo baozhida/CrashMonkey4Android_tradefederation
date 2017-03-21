@@ -183,7 +183,7 @@ public class Console extends Thread {
     protected static ConsoleReader getReader() {
         try {
             if (sConsoleStream == null) {
-                final ConsoleReader reader = new ConsoleReader();
+            	final ConsoleReader reader = new ConsoleReader();
                 sConsoleStream = new ConsoleReaderOutputStream(reader);
                 System.setOut(new PrintStream(sConsoleStream));
             }
