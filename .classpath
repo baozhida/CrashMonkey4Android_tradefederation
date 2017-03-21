@@ -11,8 +11,8 @@
 	<classpathentry kind="lib" path="libs/ddmlib-prebuilt.jar" sourcepath="/ddmlib"/>
 	<classpathentry kind="lib" path="libs/commons-compress-1.8.1.jar"/>
 	<classpathentry kind="lib" path="libs/guava-17.0.jar"/>
-	<classpathentry kind="lib" path="libs/jline-0.9.9.jar"/>
 	<classpathentry kind="lib" path="libs/mail.jar"/>
+	<classpathentry kind="lib" path="libs/jline-1.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
